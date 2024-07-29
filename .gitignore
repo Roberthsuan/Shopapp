@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+app/build.gradle.kts
+app/proguard-rules.pro
+build.gradle.kts
+gradle*
