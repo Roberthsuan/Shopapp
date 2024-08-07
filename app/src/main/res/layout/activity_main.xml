@@ -79,6 +79,39 @@
                 android:layout_height="236dp"
                 app:srcCompat="@drawable/_0191224163014_img" />
 
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#AE8751"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="信義店TAIPEI  XINYI STORE"
+                android:textAlignment="center"
+                android:textColor="#FAF5F5"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="基本資訊"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LOC：110台北市信義區松仁路58號9F     TEL：02-8780-3366"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
