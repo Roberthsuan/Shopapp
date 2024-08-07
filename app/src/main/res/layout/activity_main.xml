@@ -94,6 +94,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -116,6 +117,35 @@
                     android:layout_width="match_parent"
                     android:layout_height="244dp"
                     app:srcCompat="@drawable/_2024_08_07_161112" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="25dp"
+                        android:backgroundTint="#050505"
+                        android:onClick="GoToStore"
+                        android:text="店家位置"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="25dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#121212"
+                        android:fontFamily="sans-serif-light"
+                        android:text="電話訂位"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
             </LinearLayout>
 
         </LinearLayout>
