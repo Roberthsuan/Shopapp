@@ -110,6 +110,12 @@
                     android:layout_height="wrap_content"
                     android:text="LOC：110台北市信義區松仁路58號9F     TEL：02-8780-3366"
                     android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="244dp"
+                    app:srcCompat="@drawable/_2024_08_07_161112" />
             </LinearLayout>
 
         </LinearLayout>
