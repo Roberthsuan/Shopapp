@@ -142,6 +142,7 @@
                         android:layout_weight="1"
                         android:backgroundTint="#121212"
                         android:fontFamily="sans-serif-light"
+                        android:onClick="clickDIAL"
                         android:text="電話訂位"
                         android:textStyle="bold" />
                 </LinearLayout>
