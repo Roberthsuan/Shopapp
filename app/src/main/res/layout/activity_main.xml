@@ -71,6 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:rotationY="0"
                 android:text="由此開始 來到旭集，你就走進了一家家高級料亭。  邀請了京都的細膩禪意；空運來東京的時尚講究；  引進大阪的豪邁不拘；進一步融合台灣當令的鮮美。  嚴選的新鮮旬味，帶來海洋、季風與土地的美味。  料理人的自慢堅持，以「一期一會」信念，創造出口中驚嘆的瞬間。  九大和食名店區，帶給你全感官的饗宴。  極致的款待你，享用未曾享受過，極上料亭的千百種滋味！" />
 
             <ImageView
